@@ -7,6 +7,11 @@
     "icon": "./assets/images/icon.png",
     "scheme": "rnexample",
     "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/coffee-splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#000000"
+    },
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true
