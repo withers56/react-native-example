@@ -27,7 +27,7 @@ export default function RootLayout() {
           headerShown: false }} /> 
         <Stack.Screen name='menu' options={{ 
           title: 'Coffee Shop Menu', 
-          headerShown: false }} /> 
+          headerShown: true }} /> 
         <Stack.Screen name='contact' options={{ 
           title: 'Contact us', 
           headerShown: true }} />
