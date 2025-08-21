@@ -22,15 +22,15 @@ export default function RootLayout() {
       <Stack screenOptions={{ headerStyle: { backgroundColor: 
         theme.headerBackground}, headerTintColor: theme.text, headerShadowVisible: false     
       }}>
-        {/* <Stack.Screen name="(tabs)" options={{ headerShown: false }} /> */}
-        {/* <Stack.Screen name="(coffee)" options={{ headerShown: false }} /> */}
         <Stack.Screen name='index' options={{ 
           title: 'Home', 
           headerShown: false }} /> 
         <Stack.Screen name='menu' options={{ 
           title: 'Coffee Shop Menu', 
           headerShown: false }} /> 
-        <Stack.Screen name='contact' options={{ title: 'Contact us', headerShown: true }} />
+        <Stack.Screen name='contact' options={{ 
+          title: 'Contact us', 
+          headerShown: true }} />
         <Stack.Screen name="+not-found" options={{ headerShown: false}}/>
       </Stack>
   );
