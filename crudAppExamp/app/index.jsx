@@ -115,7 +115,7 @@ export default function Index() {
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.inputContainer}>
-        <TextInput style={styles.input} placeholder="Add a new Todo" placeholderTextColor='grey' value={text} onChangeText={setText}/>
+        <TextInput style={styles.input} placeholder="Add a new Todo" placeholderTextColor='grey' value={text} onChangeText={setText} maxLength={30}/>
         <Pressable onPress={addTodo} style={styles.addButton}>
           <Text style={styles.addButtonText}>
             <Feather name="plus" size={24} color="black" />
