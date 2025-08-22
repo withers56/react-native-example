@@ -7,7 +7,7 @@ export const Colors = {
   },
   dark: {
     text: 'white',
-    background: 'black',
+    background: '#2c2c2c',
     icon: 'red',
     button: 'white',
   },
